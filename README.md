@@ -148,6 +148,8 @@ AI-Escape-Room/
 │   └── llm.py              # Gemini parser and narrator prompts
 ├── docs/
 │   ├── report.pdf          # Project report
+│   ├── v1_system_architecture.png
+│   ├── v2_system_architecture.png
 │   └── screenshots/        # Test and demo screenshots
 │       ├── Playthrough/    # Demo screenshots
 │       ├── Version 1/      # Version 1 test screenshots
@@ -277,20 +279,6 @@ Each test was run on a freshly restarted game in both versions (model: `gemini-3
 | 6. Nonexistent object | ![](docs/screenshots/v2_test6_nonexistent_object.png) |
 | 7. Narrative injection | ![](docs/screenshots/v2_test7_narrative_injection.png) |
 </details>
-
----
-
-## 🎬 Demonstration: V2 Playthrough
-
-A complete normal playthrough of V2. The sidebar shows the inventory and solved puzzles updating as the game progresses.
-
-| Step | Screenshot |
-|---|---|
-| Examine the desk and bookshelf | ![](docs/screenshots/v2_playthrough_1.png) |
-| Open the drawer, take the brass key and torn page | ![](docs/screenshots/v2_playthrough_2.png) |
-| Read the torn page | ![](docs/screenshots/v2_playthrough_3.png) |
-| Move the painting, unlock the cabinet | ![](docs/screenshots/v2_playthrough_4.png) |
-| Read the paper, use the periodic table, escape 🎉 | ![](docs/screenshots/v2_playthrough_5.png) |
 
 ---
 
