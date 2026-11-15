@@ -8,7 +8,7 @@ solutions) in its system prompt and decides everything by itself:
 what the player sees, whether actions succeed, and when the player escapes.
 
 Run from the project root:
-    streamlit run v1/app.py
+    streamlit run "Version 2/app.py"
 """
 
 import os
